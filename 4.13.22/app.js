@@ -38,3 +38,17 @@ doubledArr([1,2,3])
 
 //Or can console.log it - can add in what the answer should be on the right
 console.log(doubledArr([2,3,4]), [4,6,8])
+
+
+// what if you have an empty arr?
+function doubledArr(arr){
+    if(arr.length === 0 || arr === undefined){
+        console.log('Array is invalid')
+    }else{
+        return arr.map(element=>element*2)
+    }
+}
+
+console.log(doubledArr([2,3,4]), [4,6,8])
+console.log(doubledArr([]))
+
