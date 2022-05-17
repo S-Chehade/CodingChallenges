@@ -10,6 +10,15 @@ function maps(x){
     return map1
 }
 
+function takeInArrayAndDouble(array) {
+    newArr = array.map(array => array * 2)
+    return newArr
+} 
+
+array = [2,4,6]
+
+
+
 /* P: Is it always going to be integers? Are we going
 to be given any special characters? An empty arr ever?
 */ 
